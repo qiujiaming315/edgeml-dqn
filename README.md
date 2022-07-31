@@ -1,6 +1,8 @@
 # Adaptive Edge Offloading for Image Classification Under Rate Limit
 
-<img src="img/system_overview.png" alt="system_overview" style="display:block;margin-left:auto;margin-right:auto;width:50%;"/>
+<p align="center">
+    <img src="img/system_overview.png" alt="system_overview" width="50%"/>
+</p>
 
 ## Overview
 
