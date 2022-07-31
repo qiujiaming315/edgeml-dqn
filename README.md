@@ -1,10 +1,10 @@
 # Adaptive Edge Offloading for Image Classification Under Rate Limit
 
-<img src="img/system_overview.png" alt="system_overview" width="200"/>
+<img src="img/system_overview.png" alt="system_overview" style="display:block;margin-left:auto;margin-right:auto;width:50%;"/>
 
 ## Overview
 
-This repo provides a Python implementation for:
+This repository provides a Python implementation for:
 
 Jiaming Qiu, Ruiqi Wang, Ayan Chakrabarti, Roch Guérin, and Chenyang Lu, **"Adaptive Edge Offloading for Image Classification Under Rate Limit"**
 [paper]
@@ -21,13 +21,13 @@ We recommend a recent Python 3.7+ distribution of [Anaconda](https://www.anacond
 
 ## Reproducing Results
 
-To reproduce the results presented in the paper, you may download and extract our pre-computed [data](https://arxiv.org/abs/2010.13737) merged from multiple simulations. The files should be extracted into the `viz/data/` sub-directory, which allows you to directly run the note-books in the visualization step.
+To reproduce the results presented in the paper, you may download and extract our pre-computed [data](https://github.com/qiujiaming315/edgeml-dqn/releases/download/v0.1.0/data.zip) merged from multiple simulations. The files should be extracted into the `viz/data/` sub-directory, which allows you to directly run the note-books in the visualization step.
 
 ## Model Training and Simulation
 
 #### Data Preparation
 
-You will need to first download an `npz` [file](https://arxiv.org/abs/2010.13737) containing the pre-computed offloading metrics for the ILSVRC validation set with the weak and strong classifier pair we reported in the paper (VGG-style 16-layer vs. [OFA](https://github.com/mit-han-lab/once-for-all) 595MFlops). You can put the file in the `data/` sub-directory. Check our [previous work](https://github.com/ayanc/edgeml.mdp) for more details on computing offloading metrics with your own dataset and classifier pair.
+You will need to first download an `npz` [file](https://github.com/qiujiaming315/edgeml-dqn/releases/download/v0.1.0/ofa_top5.npz) containing the pre-computed offloading metrics for the ILSVRC validation set with the weak and strong classifier pair we reported in the paper (VGG-style 16-layer vs. [OFA](https://github.com/mit-han-lab/once-for-all) 595MFlops). You can put the file in the `data/` sub-directory. Check our [previous work](https://github.com/ayanc/edgeml.mdp) for more details on computing offloading metrics with your own dataset and classifier pair.
 
 #### Training
 
