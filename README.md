@@ -9,9 +9,9 @@
 This repository provides a Python implementation for:
 
 Jiaming Qiu, Ruiqi Wang, Ayan Chakrabarti, Roch Guérin, and Chenyang Lu, **"Adaptive Edge Offloading for Image Classification Under Rate Limit"**
-[paper]
-[slides]
-[code]
+[[paper]](https://ieeexplore.ieee.org/document/9852802)
+[[slides]](https://docs.google.com/presentation/d/1_tz3UT7ev9F0JMhv3vZH-8oE2gD6R0rI)
+[[video]](https://drive.google.com/file/d/1vBp9K2hzNUGaPQejJ_xR40FMSCh76qtu)
 
 This work is an extension of **"Real-time Edge Classification: Optimal Offloading under Token Bucket Constraints"**
 [[paper]](https://ieeexplore.ieee.org/document/9708981)
