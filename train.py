@@ -2,6 +2,7 @@ import os
 import argparse
 import numpy as np
 import tensorflow as tf
+from pathlib import Path
 
 import lib.utils as ut
 import lib.bucket as bkt
@@ -50,6 +51,7 @@ def main(opts):
     tmatrix = trans_matrix(qpm)
 
     # Get MDP baseline results.
+    Path(opts.wts).mkdir(parents=True, exist_ok=True)
     if os.path.isfile(opts.wts + '/iid.npz'):
         iidrs = np.load(opts.wts + '/iid.npz')
         iidr_t, iidr_v = iidrs['iidr_t'], iidrs['iidr_v']
